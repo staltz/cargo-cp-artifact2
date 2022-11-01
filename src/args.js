@@ -23,6 +23,9 @@ function validateArtifactType(artifactType) {
     case "d":
     case "dylib":
       return "dylib";
+    case "s":
+    case "staticlib":
+      return "staticlib";
     default:
   }
 
